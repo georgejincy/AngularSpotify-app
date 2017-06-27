@@ -8,8 +8,11 @@ import { AboutComponent }  from './components/about.component';
 import { AlbumComponent }  from './components/album.component';
 import { ArtistComponent }  from './components/artist.component';
 
+import { AppRoutingModule }     from './app.routing';
+
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule,
+  					AppRoutingModule ],
   declarations: [ AppComponent, 
   					NavbarComponent,
   					SearchComponent,
