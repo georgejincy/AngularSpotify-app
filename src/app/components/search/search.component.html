@@ -1,0 +1,8 @@
+<h1>Need Music?</h1>
+<p class="lead">Use the ngSpotify app to browse new releases and find your fasvourite music</p>
+<form>
+	<div class="form-group">
+		<!--ngModel two way data binding used in the search form . A keyup action is also required which is associated with a function to be called when event takes place-->
+		<input type="text" name="searchStr" [(ngModel)] = "searchStr" (keyup) = "searchMusic()" class="form-control" placeholder="Search Music... ">
+	</div>
+</form>

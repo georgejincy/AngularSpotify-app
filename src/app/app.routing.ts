@@ -1,10 +1,10 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
  
-import { SearchComponent }  from './components/search.component';
-import { AboutComponent }  from './components/about.component';
-import { AlbumComponent }  from './components/album.component';
-import { ArtistComponent }  from './components/artist.component';
+import { SearchComponent }  from './components/search/search.component';
+import { AboutComponent }  from './components/about/about.component';
+import { AlbumComponent }  from './components/album/album.component';
+import { ArtistComponent }  from './components/artist/artist.component';
  
 const routes: Routes = [
   { 
